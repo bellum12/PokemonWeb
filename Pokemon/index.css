@@ -1,0 +1,98 @@
+.Main
+{
+  width: 800px;
+/*  height: 800px;*/
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 25px solid brown;
+  border-radius: 20px;
+
+  padding: 10px;
+
+  background-color: rgb(232, 100, 56);
+
+}
+
+p,ul,li
+{
+  font-family: arial;
+
+  font-size: 17pt;
+}
+
+.gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link, a:visited
+{
+  color: green;
+  font-size: 20pt;
+  font-family: monospace;
+
+  text-decoration: none;
+}
+
+a:hover, a:active
+{
+  color: green;
+  font-size: 20pt;
+  font-family: monospace;
+
+  text-decoration: line-through;
+}
+
+li
+{
+
+}
+
+h1
+{
+  text-align: center;
+  font-family: font;
+
+  font-size: 50pt;
+
+  height: 70px;
+
+  margin-top: 5px;
+}
+
+.charizard
+{
+  float: left;
+
+  margin: 7px;
+}
+
+.book
+{
+  float:right;
+
+  margin-right: 580px;
+  margin-bottom: 80px;
+  margin-top: -7px;
+}
+
+h2
+{
+  font-family: font;
+  margin-left: 40px;
+
+  font-size: 40pt;
+}
+
+@font-face {
+  font-family: 'font';
+  src:url('Pokemon Solid.ttf');
+}
+
+body
+{
+  background-image: url('Background.png');
+
+}
